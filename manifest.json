@@ -1,0 +1,22 @@
+{
+    "name": "Tasker",
+    "version": "1.1.0",
+    "description": "Manage task here",
+    "manifest_version": 3,
+    "author": "Ravi",
+    "icons": {
+        "128":"icon.png",
+        "48":"icon.png",
+        "16":"icon.png"
+    },
+    "action":{
+        "default_icon": "icon.png",
+        "default_popup": "index.html",
+        "default_title": "Manage Task"
+    },
+    "options_page":"options.html" ,
+    "background":{
+        "service_worker":"event.js"
+    },
+    "permissions":["notifications", "contextMenus","storage"]
+}

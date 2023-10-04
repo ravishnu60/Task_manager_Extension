@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <span id="date" style="font-weight: bold;margin-left: 35%;color: chocolate;" ></span>
+    <div style="border-radius: 0px 15px 0px 15px;padding:10px;background:linear-gradient(#88ff3994,#27fd39);">
+        <table>
+            <tr class="task">
+                <td><img src="pen.gif" width="35" /></td>
+                <td style="padding:5px;">
+                    <h4>Enter new Task <br />
+                        <input type="text"  placeholder="Enter task" name="name" id="name" autocomplete="off" class="inputStl"/>
+                    </h4>
+                </td>
+            </tr>
+        </table>
+
+        <div id="show">
+            <h3>Today's Task </h3>
+            <div id="display" class="display"></div>
+        </div>
+        <h4 id="count"> Total Task : </h4>
+        <button type="button" id="resetcurr" style="margin-left: 36%;">Clear</button>
+        <script type="text/javascript" src="action.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.hide{
+    display: none;
+}
+
+.display{
+    max-height: 100px;
+    overflow: auto;
+    border:2px outset #003cff;
+    border-radius:0px 6px 0px 6px;
+    padding:2px;
+    background-color: #34dffd;
+}
+
+.displayOps{
+    max-height: 500px;
+    width: 400px;
+    overflow: auto;
+    border:2px outset #003cff;
+    border-radius:0px 6px 0px 6px;
+    padding:2px;
+    background-color: #87e2f1;
+}
+
+.inputStl{
+    border-radius: 4px 4px 4px 4px;
+    background-color: transparent;
+    margin-top: 2px;
+    height: 20px;
+}
+
+.delete{
+    color: red;
+    font-size: 10px;
+}
+
+.edit{
+    color: green;
+    font-size: 10px;
+}
